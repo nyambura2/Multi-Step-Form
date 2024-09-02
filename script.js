@@ -207,7 +207,7 @@ function goStepTwo() {
       document.getElementById("modeTotal").innerHTML = "Total (per year)";
     });
   checkBox = document
-    .getElementById("anneeAdvenced")
+    .getElementById("anneeAdvanced")
     .addEventListener("click", event => {
       anneeAdvenced.style.backgroundColor = "hsl(217, 100%, 97%)";
       anneeAdvenced.style.border = " solid 1px hsl(213, 96%, 18%)";
