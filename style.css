@@ -10,8 +10,8 @@ body {  font-family: "Ubuntu", sans-serif;
     display: flex;  
     background-color: rgb(255, 255, 255);
     margin-top: 3%; 
-     margin-left: auto;  
-     margin-right: auto;
+    margin-left: auto;  
+    margin-right: auto;
     border-radius: 10px;
     box-shadow: 20px 20px 20px rgba(47, 18, 18, 0.101);
     width: 1000px;  height: 568px;
@@ -20,34 +20,53 @@ body {  font-family: "Ubuntu", sans-serif;
   .displayStep {  display: flex;  justify-content: center;
     width: 274px;  height: 568px;
     background-color: rgbahsl(206, 94%, 87%);
-    background-image: url(assets/images/bg-sidebar-desktop.svg);
+    background-image: url(/images/bg-sidebar-desktop.svg);
   }
   
-  .circle {  position: relative;
+  .circle { 
+    position: relative;
     background-color: rgba(220, 20, 60, 0);
-    width: 20%;  color: white;  font-weight: 500;  height: 50%;
-    margin-top: 15%;  display: flex;  flex-direction: column;
-    justify-content: space-between;  align-items: center;
+    width: 20%;  color: white;  
+    font-weight: 500; 
+     height: 50%;
+    margin-top: 15%; 
+     display: flex;  
+    flex-direction: column;
+    justify-content: space-between;  
+    align-items: center;
   }
   .circle p {  margin-top: 10px;}
-  .circle1 {  width: 40px;  height: 40px;
+  .circle1 {  
+    width: 40px; 
+     height: 40px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    border: solid 1px white;  display: flex;
-    justify-content: center;  color: black;
+    border: solid 1px white;  
+    display: flex;
+    justify-content: center;  
+    color: black;
   }
-  .circle2 {  width: 40px;  height: 40px;
-    border-radius: 20px;  background-color: rgba(0, 0, 0, 0);
-    border: solid 1px white;  display: flex;
+  .circle2 {  
+    width: 40px;  
+    height: 40px;
+    border-radius: 20px;  
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;  
+    display: flex;
     justify-content: center;
   }
-  .circle3 {  width: 40px;  height: 40px;
+  .circle3 { 
+    width: 40px; 
+    height: 40px;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0);
-    border: solid 1px white;  display: flex;
+    border: solid 1px white;
+    display: flex;
     justify-content: center;
   }
-  .circle4 {  width: 40px;  height: 40px;
+  .circle4 {  
+    width: 40px; 
+    height: 40px;
     border-radius: 20px;  
     background-color: rgba(0, 0, 0, 0);
     border: solid 1px white; 
@@ -55,7 +74,8 @@ body {  font-family: "Ubuntu", sans-serif;
     justify-content: center;
   }
   
-  .steps {  position: relative;
+  .steps {  
+    position: relative;
     background-color: rgba(255, 255, 0, 0);
     display: flex;  
     flex-direction: column;
@@ -66,12 +86,16 @@ body {  font-family: "Ubuntu", sans-serif;
     margin-left: 0%;
   }
   
-  .step1 {  position: inherit;  padding-left: 5px;
+  .step1 {  
+    position: inherit;  
+    padding-left: 5px;
     background-color: rgba(156, 55, 55, 0);
   }
   
-  .steps p {  margin-bottom: 0px;
-    margin-top: 0px;  font-size: 14px;
+  .steps p {  
+    margin-bottom: 0px;
+    margin-top: 0px;  
+    font-size: 14px;
     color: hsl(231, 11%, 63%);
   }
   
@@ -95,8 +119,10 @@ body {  font-family: "Ubuntu", sans-serif;
   
   #stepSummary {  display: none;  flex-direction: column;}
   
-  #stepThankYou {  display: none;  flex-direction: column;
-    align-items: center;  margin-top: 150px;}
+  #stepThankYou {  display: none;  
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 150px;}
   
   #stepThankYou img {  width: 80px;}
   
